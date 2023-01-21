@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">Finance Ledger</a>
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Cases</li>
-          <li><a href="#"></a>Blog</li>
-          <li><a href="#"></a>Contact</li>
+      <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo link"><span class="accent"> Finance</span> Ledger</a>
+        <ul class="nav list">
+          <li class="nav-item"><a href="#" class="nav-item-link link"></a>Home</li>
+          <li class="nav-item"><a href="#" class="nav-item-link link"></a>About</li>
+          <li class="nav-item"><a href="#" class="nav-item-link link"></a>Cases</li>
+          <li class="nav-item"><a href="#" class="nav-item-link link"></a>Blog</li>
+          <li class="nav-item"><a href="#" class="nav-item-link link"></a>Contact</li>
         </ul>
       </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">> Read More</button>
+      <section class="hero">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button type="button" class="hero-btn">Read More</button>
       </section>
       <section>
         <img src="./images/img1.jpg" alt="our team" />
@@ -75,8 +91,7 @@
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <div>
-        </div>
+        <div></div>
         <img
           src="./images/rectangle-7.jpg"
           alt="coffee card"
@@ -124,16 +139,16 @@
           </li>
         </ul>
       </section>
-			<section>
-				<img src="./images/men.jpg" alt="picture">
-				<h2>Request Callback</h2>
-				<input type="text" placeholder="Enter your name">
-				<input type="email" placeholder="Enter email*">
-				<button>Send</button>
-			</section>
+      <section>
+        <img src="./images/men.jpg" alt="picture" />
+        <h2>Request Callback</h2>
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter email*" />
+        <button>Send</button>
+      </section>
     </main>
     <footer>
-			<p>Copyright © 2021 - FinanceLedger</p>
-		</footer>
+      <p>Copyright © 2021 - FinanceLedger</p>
+    </footer>
   </body>
 </html>
