@@ -117,3 +117,45 @@ body {
 }
 .our-team-btn {
 }
+
+
+.cases {
+}
+
+.cases-container {
+}
+.cases-text {
+    width: 275px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: calc(33 / 20);
+    text-align: center;
+    color: #333333;
+
+}
+.cases-title {
+	width: 275px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: calc(48 / 38);
+    text-align: center;
+    color: #333333;
+}
+.cases-list {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	column-gap: 21px;
+	row-gap: 24px;
+}
+
+.cases-item {
+}
+
+.cases-text-a-title {
+	width: 645px;
+    font-weight: 400;
+	font-size: 18px;
+    line-height: calc(28 / 18);
+    text-align: center;
+    color: #333333;
+}
