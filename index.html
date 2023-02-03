@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
@@ -124,16 +129,52 @@
           </li>
         </ul>
       </section>
-			<section>
-				<img src="./images/men.jpg" alt="picture">
-				<h2>Request Callback</h2>
-				<input type="text" placeholder="Enter your name">
-				<input type="email" placeholder="Enter email*">
-				<button>Send</button>
+			<section class="feedback">
+				<img src="./images/men.jpg" alt="picture" width="670" height="454">
+				<div class="feedback-item">
+					<h2 class="list-title">Request Callback</h2>
+					<form>
+						<input class="feedback-input" type="text" placeholder="Enter your name" name="user-name">
+						<input class="feedback-input" type="email" placeholder="Enter email*" name="user-email">
+						<button type="submit" class="feedback-button">Send</button>
+					</form>
+				</div>
 			</section>
     </main>
-    <footer>
-			<p>Copyright © 2021 - FinanceLedger</p>
+    <footer class="footer">
+			<div class="soc-footer">
+				<ul class="list">
+					<li>
+						<a href="" class="soc-link">
+							<svg class="soc-icon" width="35" height="35">
+								<use href="./images/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="" class="soc-link">
+							<svg class="soc-icon" width="35" height="35">
+								<use href="./images/icons.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="" class="soc-link">
+							<svg class="soc-icon" width="40" height="35">
+								<use href="./images/icons.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="" class="soc-link">
+							<svg class="soc-icon" width="31" height="35">
+								<use href="./images/icons.svg#icon-in"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<p class="copyright">Copyright © 2021 - FinanceLedger</p>
 		</footer>
   </body>
 </html>
