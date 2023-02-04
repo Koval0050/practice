@@ -117,45 +117,81 @@
           height="460"
         />
       </section>
-      <section>
-        <p>Who we are</p>
-        <h2>Our Professional Team</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/rectangle-8.jpg"
-              alt="coworker 1"
-              width="421"
-              height="286"
-            />
-            <h2>John Doe</h2>
-            <p>President</p>
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-9.jpg"
-              alt="coworker 2"
-              width="422"
-              height="286"
-            />
-            <h2>Jane Doe</h2>
-            <p>Vice President</p>
-          </li>
-          <li>
-            <img
-              src="./images/rectangle-10.jpg"
-              alt="coworker 3"
-              width="420"
-              height="284"
-            />
-            <h2>Steve Smith</h2>
-            <p>Marketing Head</p>
-          </li>
-        </ul>
+      <section class="team">
+        <div class="container team-container">
+          <p class="team-title">Who we are</p>
+          <h2 class="team-header">Our Professional Team</h2>
+          <p class="team-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="team-list list">
+            <li class="team-item">
+              <img
+                src="./images/rectangle-8.jpg"
+                alt="coworker 1"
+                width="422"
+                height="286"
+              />
+              <div class="team-caption">
+                <h2 class="team-names">John Doe</h2>
+                <p class="team-position">President</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/rectangle-9.jpg"
+                alt="coworker 2"
+                width="422"
+                height="286"
+              />
+			  <div class="team-social-icons">
+			  	<ul class="team-social-icons-list list">
+					<li class="team-social-item">
+					  <a href="" class="team-social-icons-link link"></a>
+					  <svg class="team-social-icon" width="35" height="35">
+						<use href="./images/icons.svg#icon-facebook"></use>
+					  </svg>
+					</li>
+					<li class="team-social-item">
+					  <a href="" class="team-social-icons-link link"></a>
+					  <svg class="team-social-icon" width="35" height="35">
+						<use href="./images/icons.svg#icon-twitter"></use>
+					  </svg>
+					</li>
+					<li class="team-social-item">
+					  <a href="" class="team-social-icons-link link"></a>
+					  <svg class="team-social-icon" width="35" height="35">
+						<use href="./images/icons.svg#icon-youtube"></use>
+					  </svg>
+					</li>
+					<li class="team-social-item">
+					  <a href="" class="team-social-icons-link link"></a>
+					  <svg class="team-social-icon" width="35" height="35">
+						<use href="./images/icons.svg#icon-in"></use>
+					  </svg>
+					</li>
+				  </ul>
+			  </div>
+              <div class="team-caption">
+                <h2 class="team-names">Jane Doe</h2>
+                <p class="team-position">Vice President</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/rectangle-10.jpg"
+                alt="coworker 3"
+                width="422"
+                height="286"
+              />
+              <div class="team-caption">
+                <h2 class="team-names">Steve Smith</h2>
+                <p class="team-position">Marketing Head</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
         <img src="./images/men.jpg" alt="picture" />
