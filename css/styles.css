@@ -28,6 +28,8 @@ ol {
 	font-size: 38px;
 	line-height: 48px;
 	color: #333333;
+	padding-top: 80px;
+	padding-bottom: 32px;
 }
 
 .feedback {
@@ -35,11 +37,15 @@ ol {
 }
 
 .feedback-input {
-	
+	width: 100%;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #F5F5F5;
+	margin-bottom: 60px;
 }
 
 .feedback-button {
-
+	
 }
 
 .feedback-item {
