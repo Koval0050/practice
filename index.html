@@ -157,16 +157,62 @@
           </li>
         </ul>
       </section>
-      <section>
-        <img src="./images/men.jpg" alt="picture" />
-        <h2>Request Callback</h2>
-        <input type="text" placeholder="Enter your name" />
-        <input type="email" placeholder="Enter email*" />
-        <button>Send</button>
+      <section class="feedback">
+        <img src="./images/men.jpg" alt="picture" width="670" height="454" />
+        <div class="feedback-item">
+          <h2 class="list-title">Request Callback</h2>
+          <form>
+            <input
+              class="feedback-input"
+              type="text"
+              placeholder="Enter your name"
+              name="user-name"
+            />
+            <input
+              class="feedback-input"
+              type="email"
+              placeholder="Enter email*"
+              name="user-email"
+            />
+            <button class="feedback-button" type="submit">Send</button>
+          </form>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>Copyright © 2021 - FinanceLedger</p>
+    <footer class="footer">
+      <div class="soc-footer">
+        <ul class="list">
+          <li>
+            <a href="" class="soc-link">
+              <svg class="soc-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="soc-link">
+              <svg class="soc-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="soc-link">
+              <svg class="soc-icon" width="40" height="35">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="soc-link">
+              <svg class="soc-icon" width="31" height="35">
+                <use href="./images/icons.svg#icon-in"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="copyright">Copyright © 2021 - FinanceLedger</p>
     </footer>
   </body>
 </html>
