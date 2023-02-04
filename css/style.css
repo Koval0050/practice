@@ -159,3 +159,56 @@ body {
     text-align: center;
     color: #333333;
 }
+
+
+/*-----------------------BLOG-----------*/
+
+.container-wrap {
+	min-width: 1360px;
+	margin: 0 auto;
+	background-color: #0284D0;
+	background-image: url(../images/rectangle-7.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: calc(50% - 10px) 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 28px;
+}
+
+.blog-text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.65;
+	margin-bottom: 8px;
+}
+
+.blog-main {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.26;
+	margin-bottom: 24px;
+}
+
+.blog-big-text {
+	width: 606px;
+	height: 113px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	margin-bottom: 24px;
+}
+
+.blog-button {
+	width: 196px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: #0284D0;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	color: #FFFFFF;
+	cursor: pointer;
+}
