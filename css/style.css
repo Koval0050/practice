@@ -21,6 +21,11 @@ body {
 	list-style: none;
 }
 
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
 .feedback-list {
 	list-style: none;
 	display: flex;
@@ -78,7 +83,6 @@ body {
 .footer {
 	background: #333333;
 	height: 110px;
-	width: 100%;
 }
 
 .copyright {
